@@ -22,7 +22,7 @@ store_dict={'Store1':[0, 0, 0], 'Store2':[0, 0, 0], 'Store3':[0, 0, 0]}
 
 # Open the CSV file for reading
 # Remember to use "with" to ensure the file gets closed properly
-with open('store_sales.csv', mode='r') as file:
+with open('/Users/saisarathkanamarlapudi/Documents/ZipCodeWilmington/PipelineTwo/store_sales.csv', mode='r') as file:
 
     # Create a CSV reader
     csv_reader = csv.reader(file)
